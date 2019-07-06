@@ -60,7 +60,10 @@ public class Main {
                     System.out.print(5);
                     answer = 5;
                     return;
-                }else if(i>3 && i%3==1){
+                }
+            }
+            for(Integer i : loops){
+                if(i>3 && i%3==1){
                     System.out.print(4);
                     answer = 4;
                     return;
